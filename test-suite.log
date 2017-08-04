@@ -1,0 +1,29 @@
+=================================
+   hello 1.0: ./test-suite.log
+=================================
+
+# TOTAL: 3
+# PASS:  0
+# SKIP:  1
+# XFAIL: 0
+# FAIL:  2
+# XPASS: 0
+# ERROR: 0
+
+.. contents:: :depth: 2
+
+FAIL: test1
+===========
+
+Hi! I'm a test1!FAIL test1 (exit status: 1)
+
+SKIP: test2
+===========
+
+Hi! I'm a test2!SKIP test2 (exit status: 77)
+
+FAIL: test3
+===========
+
+Hi! I'm a test3!FAIL test3 (exit status: 1)
+
